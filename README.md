@@ -120,8 +120,6 @@ Our project specifically focuses on cost optimization by determining when V2G ut
 
 ### Web Application
 - Streamlit
-- Plotly
-- CSS customization
 
 ### Data Sources
 - Solar irradiation measurements from Meknès, Morocco
