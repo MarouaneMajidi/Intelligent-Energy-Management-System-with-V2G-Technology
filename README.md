@@ -6,6 +6,8 @@
 [![MATLAB/Simulink](https://img.shields.io/badge/MATLAB%2FSimulink-R20XXx-orange.svg)](https://www.mathworks.com/products/matlab.html)
 
 ## 🚧 Project Status: Under Active Development 🚧
+### Attention:
+This application currently uses first-version models trained on limited data without standardization. An improved version will be released soon.
 
 ## Notebooks Overview
 
