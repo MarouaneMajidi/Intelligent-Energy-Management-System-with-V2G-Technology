@@ -6,7 +6,7 @@
 
 **🚧 Project Status: Under Development 🚧**
 
-## 📖 Overview
+## Overview
 
 This project focuses on optimizing electricity production costs by intelligently integrating Vehicle-to-Grid (V2G) technology. We have adapted a foundational MATLAB & Simulink V2G simulation (see "Acknowledgements" section) to model longer timeframes (monthly) and incorporate real-world solar irradiance data from Meknès, Morocco, along with a generated residential load profile representative of Moroccan consumption patterns.
 
@@ -36,7 +36,7 @@ V2G can be particularly useful in several scenarios:
 
 Our project leverages V2G to optimize energy costs by deciding when it's more economical to use stored EV energy versus other sources like diesel generators.
 
-## ✨ Key Features
+## Key Features
 
 * **Extended V2G Simulation:** Modified MATLAB/Simulink model for monthly energy analysis, moving beyond the original 24-hour scope.
 * **Real-World Data Integration:** Utilizes actual solar irradiation data for Meknès, Morocco, enhancing simulation accuracy.
@@ -47,7 +47,7 @@ Our project leverages V2G to optimize energy costs by deciding when it's more ec
     * Recommendations on using V2G energy versus purchasing diesel for overload scenarios.
 * **Data-Driven Insights:** Generates and analyzes data on load, solar energy production, and available V2G power.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Simulation:**
     * MATLAB
@@ -60,7 +60,7 @@ Our project leverages V2G to optimize energy costs by deciding when it's more ec
     * Real solar irradiation data for Meknès, Morocco.
     * Generated residential load data reflecting Moroccan consumption.
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 ├── Notebooks/                  
 ├── Best Models/                
@@ -70,7 +70,7 @@ Our project leverages V2G to optimize energy costs by deciding when it's more ec
 |__ App_version_one
 ```
 
-## ⚙️ Simulation Details
+## Simulation Details
 
 The core simulation, based on a MATLAB & Simulink model (see Acknowledgements), is adapted for this project. Key modifications include:
 
@@ -86,16 +86,16 @@ The core simulation, based on a MATLAB & Simulink model (see Acknowledgements), 
 
 
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * This project adapts and builds upon the concepts demonstrated in the "24-hour Simulation of a Vehicle-to-Grid (V2G) System" example provided by MathWorks for MATLAB & Simulink. We thank MathWorks for making such examples available to the community. You can find the original simulation concept [here](https://www.mathworks.com/help/sps/ug/24-hour-simulation-of-a-vehicle-to-grid-v2g-system.html)
 
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE.txt` file for more details.
 
-## 📧 Contact
+## Contact
 
 * **SOHAIB DAOUDI:** [soh.daoudi@gmail.com](mailto:soh.daoudi@gmail.com)
 * **MAROUANE MAJIDI:** [majidi.marouane0@gmail.com](mailto:majidi.marouane0@gmail.com)
