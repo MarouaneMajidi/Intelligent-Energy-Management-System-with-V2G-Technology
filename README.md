@@ -84,6 +84,38 @@ The core simulation, based on a MATLAB & Simulink model (see Acknowledgements), 
     * Solar Energy Production
     * Total Power Available from EV V2G
 
+### Prerequisites for Running the App
+
+* Python 3.x
+* Streamlit (version specified in badges, e.g., 1.20+)
+* Other Python packages (list them in a `requirements.txt` file)
+
+## Running the Application
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/sohaibdaoudi/V2G_TS_Project.git
+    cd V2G_TS_Project
+    ```
+2.  **Set up a Python virtual environment (recommended):**
+    ```bash
+    python3 -m venv venv  # Or `python -m venv venv`
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(Ensure you have a `requirements.txt` file listing all necessary Python packages, including Streamlit)*
+4.  **Navigate to the application directory (if your app.py is in a subfolder, e.g., App/):**
+    ```bash
+    # cd App/ # Uncomment if your app is in a subfolder
+    ```
+5.  **Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
+    *(Replace `app.py` with the actual name of your main Streamlit script if different)*
 
 
 ## Acknowledgements
