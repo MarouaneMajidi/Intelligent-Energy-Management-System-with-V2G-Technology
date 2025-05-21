@@ -46,7 +46,7 @@ The system integrates real-world solar irradiance data from Meknès, Morocco, al
 
 Vehicle-to-Grid (V2G) is a cutting-edge technology enabling bidirectional energy flow between electric vehicle batteries and the power grid. Unlike conventional EV charging, V2G allows vehicles to not only consume electricity but also return it to the grid when beneficial.
 
-### How It Works
+![Image](https://github.com/user-attachments/assets/f0aac5e9-e10b-41d8-8296-e3e35398dc79)
 
 ## Streamlit App Components
 
