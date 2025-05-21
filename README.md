@@ -67,6 +67,7 @@ Our project leverages V2G to optimize energy costs by deciding when it's more ec
 ├── Datasets/                   
 ├── README.md
 └── LICENSE.txt
+|__ App_version_one
 ```
 
 ## ⚙️ Simulation Details
