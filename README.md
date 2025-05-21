@@ -84,70 +84,12 @@ The core simulation, based on a MATLAB & Simulink model (see Acknowledgements), 
     * Solar Energy Production
     * Total Power Available from EV V2G
 
-## 🚀 Streamlit Application
 
-The Streamlit application serves as the user interface for the optimization system. Its primary functions are:
-
-1.  **Displaying Weekly Forecasts:** Visualizing anticipated energy supply and demand.
-2.  **Providing Recommendations:** Advising on whether to:
-    * Utilize energy stored in EVs (V2G).
-    * Purchase diesel fuel to cover potential energy deficits.
-    These recommendations are based on the outputs of the optimization study.
-
-### Prerequisites for Running the App
-
-* Python 3.x
-* Streamlit (version specified in badges, e.g., 1.20+)
-* Other Python packages (list them in a `requirements.txt` file)
-
-### Running the Application
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/sohaibdaoudi/V2G_TS_Project.git
-    cd V2G_TS_Project
-    ```
-2.  **Set up a Python virtual environment (recommended):**
-    ```bash
-    python3 -m venv venv  # Or `python -m venv venv`
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Ensure you have a `requirements.txt` file listing all necessary Python packages, including Streamlit)*
-4.  **Navigate to the application directory (if your app.py is in a subfolder, e.g., App/):**
-    ```bash
-    # cd App/ # Uncomment if your app is in a subfolder
-    ```
-5.  **Run the Streamlit app:**
-    ```bash
-    streamlit run app.py
-    ```
-    *(Replace `app.py` with the actual name of your main Streamlit script if different)*
 
 ## 🙏 Acknowledgements
 
 * This project adapts and builds upon the concepts demonstrated in the "24-hour Simulation of a Vehicle-to-Grid (V2G) System" example provided by MathWorks for MATLAB & Simulink. We thank MathWorks for making such examples available to the community. You can find the original simulation concept [here](https://www.mathworks.com/help/sps/ug/24-hour-simulation-of-a-vehicle-to-grid-v2g-system.html)
 
-## 🔮 Future Work
-
-* [ ] Integrate real-time data feeds for load and solar production.
-* [ ] Expand the optimization model to include more variables (e.g., battery degradation costs, dynamic electricity pricing).
-* [ ] Develop more sophisticated forecasting models and store them in `Best Models/`.
-* [ ] Enhance the user interface with more detailed analytics and visualizations.
-* [ ] Conduct a comparative analysis with other energy storage solutions.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions for improvements or want to contribute to the project, please follow these steps:
-
-1.  Fork the Project.
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the Branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
 
 ## 📜 License
 
