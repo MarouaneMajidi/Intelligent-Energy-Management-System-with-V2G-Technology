@@ -203,8 +203,11 @@ Our project leverages deep learning techniques to model and forecast three criti
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Intelligent-Energy-Management-System-with-V2G-Technology.git
+   git clone --depth 1 --filter=blob:none --sparse https://github.com/yourusername/Intelligent-Energy-Management-System-with-V2G-Technology.git
    cd Intelligent-Energy-Management-System-with-V2G-Technology
+   git sparse-checkout init --cone
+   git sparse-checkout set App_version_one
+
    ```
 
 2. **Set up a Python virtual environment:**
