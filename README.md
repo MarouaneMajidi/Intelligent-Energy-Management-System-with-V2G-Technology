@@ -106,14 +106,7 @@ V2G_TS_Project/
 ├── Notebooks/                  # Jupyter notebooks for data analysis
 ├── Best_Models/                # Optimized predictive models
 ├── Datasets/                   # Raw and processed datasets
-│   ├── solar_irradiance/       # Solar data for Meknès
-│   └── load_profiles/          # Generated residential load data
-├── Simulation/                 # MATLAB/Simulink simulation files
 ├── App_version_one/            # Streamlit application
-│   ├── app.py                  # Main application entry point
-│   ├── modules/                # Application components
-│   └── assets/                 # Static resources
-├── requirements.txt            # Python dependencies
 ├── README.md                   # This documentation
 └── LICENSE.txt                 # MIT License
 ```
