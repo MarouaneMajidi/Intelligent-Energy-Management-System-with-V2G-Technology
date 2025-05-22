@@ -256,7 +256,3 @@ This project is licensed under the [MIT License](./LICENSE.txt) - see the LICENS
   - GitHub: [@marouanemajidi](https://github.com/marouanemajidi)
 
 ---
-
-<p align="center">
-  <em>Powering the future, one vehicle at a time.</em>
-</p>
